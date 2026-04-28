@@ -1,1 +1,13 @@
 
+<section id="colecoes">
+  <h2>Coleções</h2>
+  <div class="collections-grid">
+    {% for collection in collections %}
+      <div class="collection-card">
+        <h3>{{ collection.title }}</h3>
+        <a href="{{ collection.url }}">Ver mais</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+    
