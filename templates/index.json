@@ -1,1 +1,24 @@
 
+{
+  "sections": {
+    "hero": {
+      "type": "hero"
+    },
+    "colecoes": {
+      "type": "colecoes"
+    },
+    "destaques": {
+      "type": "destaques"
+    },
+    "kits": {
+      "type": "kits"
+    }
+  },
+  "order": [
+    "hero",
+    "colecoes",
+    "destaques",
+    "kits"
+  ]
+}
+    
